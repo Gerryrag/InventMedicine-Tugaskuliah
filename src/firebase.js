@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCfgEgJXgFVCNvEtMrGwq1Cz4brF2CNC7g",
-  authDomain: "medicare-react-f4673.firebaseapp.com",
-  projectId: "medicare-react-f4673",
-  storageBucket: "medicare-react-f4673.appspot.com",
-  messagingSenderId: "655234591254",
-  appId: "1:655234591254:web:b7538f00826bbe3d6ce337",
-  measurementId: "G-89KF8GPSWY",
+  apiKey: "AIzaSyDtubPgWdEWyJO4B0gS9hp6naV4lBqNEoA",
+  authDomain: "gerryrag-d993e.firebaseapp.com",
+  projectId: "gerryrag-d993e",
+  storageBucket: "gerryrag-d993e.firebasestorage.app",
+  messagingSenderId: "493467908354",
+  appId: "1:493467908354:web:e1c9a64e3b02853efd2a1b",
+  measurementId: "G-HEY4P8K2MQ"
 };
 
 const app = initializeApp(firebaseConfig);
