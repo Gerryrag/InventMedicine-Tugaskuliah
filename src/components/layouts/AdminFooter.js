@@ -11,8 +11,8 @@ export default function AdminFooter() {
             Copyright &copy;&nbsp;
             {new Date().getFullYear()}, made with <i className="la la-heart heart text-danger"></i>{" "}
             by{" "}
-            <a href="https://bhavyajustchill.github.io" target={"_blank"}>
-              BhavyaJustChill
+            <a href="/" target={"_blank"}>
+              GerryRobbieAG
             </a>
           </div>
         </div>
