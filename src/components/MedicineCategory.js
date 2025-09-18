@@ -52,10 +52,10 @@ export default function MedicineCategory(props) {
                           </tr>
                         </thead>
                         <tbody>
-                          {categories.map((category) => {
+                        {categories.map((category, index) => {
                             return (
-                              <tr>
-                                <td>{counter++}</td>
+                            <tr key={category.id || index}>
+                               <td>{index + 1}</td>
                                 <td>{category.name}</td>
                                 <td className="td-actions">
                                   <div className="form-button-action">

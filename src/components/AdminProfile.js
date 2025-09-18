@@ -128,11 +128,11 @@ export default function AdminProfile() {
                       </small>
                     </div>
                     <div className="form-group">
-                      <label htmlFor="password">Old Password</label>
+                      <label htmlFor="oldPassword">Old Password</label>
                       <input
                         type="password"
                         className="form-control input-pill"
-                        id="password"
+                        id="oldPassword"
                         onChange={(event) =>
                           setNewValues((prev) => ({ ...prev, oldPassword: event.target.value }))
                         }
@@ -140,11 +140,11 @@ export default function AdminProfile() {
                       />
                     </div>
                     <div className="form-group">
-                      <label htmlFor="password">New Password</label>
+                      <label htmlFor="newPassword">New Password</label>
                       <input
                         type="password"
                         className="form-control input-pill"
-                        id="password"
+                        id="newPassword"
                         onChange={(event) =>
                           setNewValues((prev) => ({ ...prev, password: event.target.value }))
                         }

@@ -58,10 +58,10 @@ export default function Inventory() {
                           </tr>
                         </thead>
                         <tbody>
-                          {medicines.map((medicine) => {
-                            return (
-                              <tr>
-                                <td>{counter++}</td>
+                        {medicines.map((medicine, index) => {
+                          return (
+                          <tr key={medicine.id || index}>
+                                <td>{index + 1}</td>
                                 <td>
                                   {medicine.name} <sup>{medicine.power}</sup>
                                 </td>

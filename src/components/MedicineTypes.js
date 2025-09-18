@@ -52,10 +52,10 @@ export default function MedicineTypes() {
                           </tr>
                         </thead>
                         <tbody>
-                          {medTypes.map((medType) => {
+                          {medTypes.map((medType, index) => {
                             return (
-                              <tr>
-                                <td>{counter++}</td>
+                              <tr key={medType.id || index}>
+                                <td>{index + 1}</td>
                                 <td>{medType.name}</td>
                                 <td className="td-actions">
                                   <div className="form-button-action">
